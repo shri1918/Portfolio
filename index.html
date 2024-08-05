@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> -->
+  <!-- Bootstrap Icons CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+    <title>HTML Demo</title>
+</head>
+<body>
+    <div class="blue"></div>
+    <div class="pink blue"></div>
+<main class="position-relative z-2">
+    <section>    
+        <div class="img-bg mean navC">
+            <nav class="navbar navbar-expand-lg navC fixed-top bgTr">
+                <div class="container-fluid justify-content-center d-flex">
+                    <a class="navbar-brand" href="#">
+                        <img src="./assets /logo1.png" class="logo animate__animated animate__fadeInDown"/>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav ms-auto gap-4 " style="font-size: 16px;">
+                            <li class="nav-item ">
+                                <a class="nav-link animate__animated animate__fadeInDown text-light" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link animate__animated animate__fadeInDown text-light" href="#secation1">About</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link animate__animated animate__fadeInDown text-light" href="#secation2">Elements</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link animate__animated animate__fadeInDown text-light" href="#secation3">
+                                    Clients
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="#contact" class="btnCol btnSm mtc">Contact</a>
+                </div>
+            </nav>
+            <div class="centerDiv text-center">
+                <h1 class="textCenter wow animate__animated animate__fadeInDown">
+                    International
+                    <br>
+                    <span class="textCust">Business</span> 
+                    <span>&</span>
+                    <span class="textCust">Consulting</span>
+                    <span>.</span>
+                </h1>
+                <p class="subText ">We help our clients succeed by creating brand identities, 
+                    <br>
+                    digital experiences, and print materials.
+                </p>
+                <div class="d-flex justify-content-center align-items-center">
+                    <a href="/but" class="btnCol btnLg pt-3 me-4 wow bounceInUp animate__animated animate__rotateInUpRight">Purchase Now</a>
+                    <a href="/but" class="tran btnLg pt-3 wow bounceInUp animate__animated animate__rotateInUpLeft">Contact Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="secation1" class="bgBlack text-center text-lg-left">
+        <div class="container py-5">
+            <span style="background-color: #0f0f11 !important; padding:2px">
+            <h4 class="mtC smT wow animate__animated animate__fadeInDownBig" >Working Strategy</h4></span>
+            <h2><span class="h2C">Our Working Strategy Here.</span></h2>
+            <div class="navW">
+                <nav>
+                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Strategy</button>
+                        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Development</button>
+                        <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Reporting</button>
+                    </div>
+                </nav>
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active CusTab tabW p-3" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+                        <div class="d-flex flex-column flex-lg-row gap-2 p-3">
+                            <div class=" p-3 bgMene mt-3 mt-lg-5 col-12 col-lg-4" >
+                                <div class="card-body">
+                                    <h5 class="card-title">Goal Setting</h5>
+                                    <p class="card-text cardSub"> Define clear objectives, understand client vision, and set realistic timelines to ensure project alignment and success.</p>
+                                    <a href="#" class="btnCol readM mt-3 p-3">Read More</a>
+                                </div>
+                            </div>
+                            <div class="card p-3 bgCard col-12 col-lg-4" >
+                                <img src="https://rainbowit.net/html/doob/assets/images/services/serviice-01.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Research & Analysis</h5>
+                                    <p class="card-text cardSub">There are many variations variats of passages of Lorem Ipsum available.</p>
+                                    <a href="#" class="btnCol readM mt-3 p-3">Read More</a>
+                                </div>
+                            </div>
+                            <div class="card p-3 bgCard col-12 col-lg-4" >
+                                <img src="https://rainbowit.net/html/doob/assets/images/services/serviice-02.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Planning</h5>
+                                    <p class="card-text cardSub">Passages there are many variatin Lorem Ipsum available have suffered.</p>
+                                    <a href="#" class="btnCol readM mt-3 p-3">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade CusTab tabW p-3" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+                        <div class="d-flex flex-column flex-lg-row gap-2 p-3">
+                            <div class=" p-3 bgMene mt-3 mt-lg-5 col-12 col-lg-4">
+                                <div class="card-body">
+                                    <h5 class="card-title">Design & Prototyping</h5>
+                                    <p class="card-text cardSub">Create wireframes and mockups to visualize and refine the user interface before full-scale development.</p>
+                                    <a href="#" class="btnCol readM mt-3 p-3">Read More</a>
+                                </div>
+                            </div>
+                            <div class="card p-3 bgCard col-12 col-lg-4">
+                                <img src="https://rainbowit.net/html/doob/assets/images/services/serviice-03.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Coding & Implementation</h5>
+                                    <p class="card-text cardSub">Develop the application using best practices.</p>
+                                    <a href="#" class="btnCol readM mt-3 p-3">Read More</a>
+                                </div>
+                            </div>
+                            <div class="card p-3 bgCard col-12 col-lg-4">
+                                <img src="https://rainbowit.net/html/doob/assets/images/services/serviice-04.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Testing & QA</h5>
+                                    <p class="card-text cardSub">Ensure functionality and performance through rigorous testing.</p>
+                                    <a href="#" class="btnCol readM mt-3 p-3">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade CusTab tabW p-3" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+                        <div class="d-flex flex-column flex-lg-row gap-2 p-3">
+                            <div class="card p-3 bgCard col-12 col-lg-4">
+                                <img src="https://rainbowit.net/html/doob/assets/images/services/serviice-01.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Progress Updates</h5>
+                                    <p class="card-text cardSub">Regularly communicate project milestones.</p>
+                                    <a href="#" class="btnCol readM mt-3 p-3">Read More</a>
+                                </div>
+                            </div>
+                            <div class="card p-3 bgCard col-12 col-lg-4">
+                                <img src="https://rainbowit.net/html/doob/assets/images/services/serviice-03.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Performance Metrics</h5>
+                                    <p class="card-text cardSub">Analyze key performance indicators.</p>
+                                    <a href="#" class="btnCol readM mt-3 p-3">Read More</a>
+                                </div>
+                            </div>
+                            <div class="card p-3 bgCard col-12 col-lg-4">
+                                <img src="https://rainbowit.net/html/doob/assets/images/services/serviice-02.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Feedback & Iteration</h5>
+                                    <p class="card-text cardSub">Gather feedback and make necessary improvements.</p>
+                                    <a href="#" class="btnCol readM mt-3 p-3">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="secation2">
+        <div class="d-flex flex-column flex-lg-row pt-lg-5 " style="width: 100%;;">
+            <div class="order-1 order-lg-1 pe-lg-3 imgW1" >
+                <img src="https://rainbowit.net/html/doob/assets/images/split/split-01.jpg" alt="girl" class="pt-lg-5 img-fluid" style="max-width: 100%; height: auto;">
+            </div>
+            <div class="order-2 order-lg-2 p-lg-5 m-lg-3 ms-xl-5 w45">
+                <h1 class="h1W wow animate__animated animate__fadeInDownBig" style="--animate-delay: 0s;">
+                    Why Choose Me?
+                </h1>
+                <p class="w-100 wow animate__animated animate__fadeInDownBig" style="--animate-delay: 0.2s;">
+                    With expertise in HTML, CSS, JavaScript, React.js, Angular, and React Native, I bring a comprehensive skill set to your project. My attention to detail ensures polished, user-centric designs, while my strong problem-solving skills guarantee efficient solutions. I prioritize open communication and collaboration, working closely with clients to align with their vision. Staying updated with the latest trends, I deliver cutting-edge solutions. Choose me for a developer who combines technical proficiency with a commitment to creating seamless, engaging user experiences.
+                </p>
+                <ul class="list-unstyled">
+                    <li style="margin: 0 0 30px; font-size: 16px; color: #acacac; font-weight: 400; line-height: 1.7; --animate-delay: 0.4s;" class="wow animate__animated animate__fadeInRightBig">- Expertise in Modern Technologies</li>
+                    <li style="margin: 0 0 30px; font-size: 16px; color: #acacac; font-weight: 400; line-height: 1.7; --animate-delay: 0.6s;" class="wow animate__animated animate__fadeInRightBig">- Attention to Detail</li>
+                    <li style="margin: 0 0 30px; font-size: 16px; color: #acacac; font-weight: 400; line-height: 1.7; --animate-delay: 0.8s;" class="wow animate__animated animate__fadeInRightBig">- User-Centric Design</li>
+                    <li style="margin: 0 0 30px; font-size: 16px; color: #acacac; font-weight: 400; line-height: 1.7; --animate-delay: 1s;" class="wow animate__animated animate__fadeInRightBig">- Strong Problem-Solving Skills</li>
+                    <li style="margin: 0 0 30px; font-size: 16px; color: #acacac; font-weight: 400; line-height: 1.7; --animate-delay: 0.8s;" class="wow animate__animated animate__fadeInRightBig">- Collaborative Approach</li>
+                    <li style="margin: 0 0 30px; font-size: 16px; color: #acacac; font-weight: 400; line-height: 1.7; --animate-delay: 1s;" class="wow animate__animated animate__fadeInRightBig">- Continuous Learning</li>
+                </ul>
+                <a href="#" class="btnCol readM mt-3 p-lg-3 wow animate__animated animate__fadeInDownBig" style="width: 120px; --animate-delay: 1.2s;">Contact With Us</a>
+            </div>
+            
+        </div>
+        <div class="d-flex flex-column flex-lg-row" style="width: 100%;">
+           
+            <div class="order-2 order-lg-1 p-lg-5 m-lg-3 ms-xl-5 w45" >
+                <h1 style="font-weight: 700; line-height: 50px; font-size: 36px; color: #fff;" class="">
+                    Continue Your Inquiries With Us.
+                </h1>
+                <p style="margin: 0 0 30px; font-size: 16px; color: #acacac; font-weight: 400; line-height: 1.7;" class="w-75">
+                    Feel free to reach out to me for any collaboration or project inquiries. You can contact me via email at shri66688@gmail.com or connect with me on [LinkedIn/GitHub].
+                </p>
+               <div class="container">
+                <div class="row mt-4 mb-4">
+                    <div class="col">
+                        <h1 id="clients" class="countT">0</h1>
+                        <h3 class="countN">Projects</h3>
+                    </div>
+                    <div class="col">
+                        <h1 id="employees" class="countT">0</h1>
+                        <h3 class="countN">Experiences</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h1 id="programs1" class="countT">0</h1>
+                        <h3 class="countN">Useful Programs</h3>
+                    </div>
+                    <div class="col">
+                        <h1 id="programs2" class="countT">0</h1>
+                        <h3 class="countN">Technology</h3>
+                    </div>
+                </div>
+               </div>
+                
+            </div>
+            <div class="order-1 order-lg-2 imgW1" >
+                <img src="https://rainbowit.net/html/doob/assets/images/split/split-03.jpg" alt="girl" class=" img-fluid" style="max-width: 100%; height: auto;">
+            </div>
+        </div>
+       
+    </section>
+    <section id="contact">
+        <div class="iframe-container d-flex justify-content-center pt-lg-4 h-auto">
+
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScVqUcbMVTZl_d3v3B0bGxbselM_e7rRCAhYuKGy6M98dyGaQ/viewform?embedded=true" width="640" height="auto" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
+    </section>
+    <section id="secation3" class="bgBlack text-center" style="padding-top: 30px;">
+        <div class="container py-5">
+            <h4 class="mtC smT">Portfolio Box Layout</h4>
+            <h2><span class="h2C">Happily Clients Complete <br>
+                Our Business Project!</span></h2>
+                <div class="container text-center">
+                    <div class="row m-0">
+                      <div class="col">
+                        <div class="card rowC" style="width: 23rem;">
+                            <a href="https://scribble-diffusion-mocha-two.vercel.app/" target="_blank" style="text-decoration: none;">
+                            <img src="https://rainbowit.net/html/doob/assets/images/portfolio/portfolio-01.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">App Development</h5>
+                              <p class="card-text">Development</p>
+                            </div>
+                        </a>
+                          </div>
+                          <div class="card rowC" style="width: 23rem;">
+                            <a href="https://github.com/shri1918/Management-React-Native-App" target="_blank" style="text-decoration: none;">
+                            <img src="https://rainbowit.net/html/doob/assets/images/portfolio/portfolio-04.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Native Application</h5>
+                              <p class="card-text">Development</p>
+                            </div>
+                            </a>
+                          </div>
+                      </div>
+                      <div class="col">
+                     <div class="card rowC" style="width: 23rem;">
+                        <a href="https://shri1918.github.io/BusinessTemplate/" target="_blank" style="text-decoration: none;">
+                            <img src="https://rainbowit.net/html/doob/assets/images/portfolio/portfolio-02.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Business Development</h5>
+                              <p class="card-text">Design</p>
+                            </div>
+                        </a>
+                          </div>
+                          <div class="card rowC" style="width: 23rem;">
+                            <a href="https://newopen.vercel.app/" target="_blank" style="text-decoration: none;">
+                            <img src="https://rainbowit.net/html/doob/assets/images/portfolio/portfolio-05.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">React Development</h5>
+                              <p class="card-text">Application</p>
+                            </div>
+                        </a>
+                          </div>
+                      </div>
+                      <div class="col">
+                     <div class="card rowC" style="width: 23rem;">
+                        <a href="https://www.figma.com/design/qU6aKTmhepGoLBojhJnht1/E-Commerce-App-Design-(Community)?node-id=0-1&t=agCPyOiH3l4mBBGE-0" target="_blank" style="text-decoration: none;">
+                            <img src="https://rainbowit.net/html/doob/assets/images/portfolio/portfolio-03.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Photoshop Design</h5>
+                              <p class="card-text">Art</p>
+                            </div>
+                        </a>
+                          </div>
+                          <div class="card rowC" style="width: 23rem;">
+                            <img src="https://rainbowit.net/html/doob/assets/images/portfolio/portfolio-06.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">App Installment</h5>
+                              <p class="card-text">Photoshop</p>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+        </div>
+    </section>   
+    <footer class="bg-gradient-to-r from-black to-zinc-800 text-white py-10">
+        <div class="container p-3">
+          <!-- <div class="row">
+            <div class="col-4 col-sm-4 col-md-3 mb-4">
+              <h5 class="text-lg font-semibold mb-4">Services</h5>
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-white hover:text-primary">About</a></li>
+                <li><a href="#" class="text-white hover:text-primary">Portfolio</a></li>
+                <li><a href="#" class="text-white hover:text-primary">Contact</a></li>
+                <li><a href="#" class="text-white hover:text-primary">Service</a></li>
+              </ul>
+            </div>
+            <div class="col-4 col-sm-4 col-md-3 mb-4">
+              <h5 class="text-lg font-semibold mb-4">Solutions</h5>
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-white hover:text-primary">Brand</a></li>
+                <li><a href="#" class="text-white hover:text-primary">Call To Action</a></li>
+                <li><a href="#" class="text-white hover:text-primary">Counter</a></li>
+                <li><a href="#" class="text-white hover:text-primary">Service</a></li>
+              </ul>
+            </div>
+            <div class="col-4 col-sm-6 col-md-3 mb-4">
+              <h5 class="text-lg font-semibold mb-4">Company</h5>
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-white hover:text-primary">Pricing</a></li>
+                <li><a href="#" class="text-white hover:text-primary">Tab Styles</a></li>
+                <li><a href="#" class="text-white hover:text-primary">Service</a></li>
+                <li><a href="#" class="text-white hover:text-primary">Social</a></li>
+              </ul>
+            </div>
+            <div class="col-4 col-sm-6 col-md-3 mb-4">
+              <h5 class="text-lg font-semibold mb-4">Resources</h5>
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-white hover:text-primary">Team</a></li>
+                <li><a href="#" class="text-white hover:text-primary">Testimonial</a></li>
+                <li><a href="#" class="text-white hover:text-primary">Service</a></li>
+                <li><a href="#" class="text-white hover:text-primary">Timeline</a></li>
+              </ul>
+            </div>
+          </div> -->
+          <div class="text-center mt-8">
+            <p class="text-lg font-semibold">Stay With Us.</p>
+            <p class="text-muted-foreground">SHRIDHAR SAVANT ❤</p>
+            <div class="d-flex justify-content-center mt-4">
+              <!-- <a href="#" class="text-white mx-2 hover:text-primary"><i class="bi bi-facebook"></i></a -->
+              <a href="https://x.com/Shridhar1819" class="text-white mx-2 hover:text-primary" target="_blank"><i class="bi bi-twitter"></i></a>
+              <a href="https://www.instagram.com/shri_1819?igsh=YmZkbjUweWs0aXE%3D&utm_source=qr" target="_blank" class="text-white mx-2 hover:text-primary"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/shridhar-savant/" target="_blank" class="text-white mx-2 hover:text-primary"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+          
+        </div>
+      </footer> 
+</main> 
+    <script>
+        function animateValue(id, start, end, duration) {
+            let range = end - start;
+            let current = start;
+            let increment = end > start ? 1 : -1;
+            let stepTime = Math.abs(Math.floor(duration / range));
+            let obj = document.getElementById(id);
+    
+            function updateValue() {
+                current += increment;
+                obj.innerHTML = current + "+";
+                if (current != end) {
+                    requestAnimationFrame(updateValue);
+                }
+            }
+    
+            requestAnimationFrame(updateValue);
+        }
+    
+        document.addEventListener("DOMContentLoaded", () => {
+            animateValue("clients", 0, 25, 2000);
+            animateValue("employees", 0, 2, 2000);
+            animateValue("programs1", 0, 9, 2000);
+            animateValue("programs2", 0, 10, 2000);
+        });
+    </script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+     <script>
+       new WOW().init();
+     </script>
+</body>
+</html>
